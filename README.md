@@ -16,22 +16,39 @@ The goals / steps of this project are the following:
 
 ##### Pipeline: 
 1. Import all the train dataset
+
 ![dataset](vehicle dataset.JPG)
+
 2. Process the images with HOG and colorspace feature extraction
+
 ![hog visualization](hog visualize.jpg)
+
 ![HoG colorchannel](hog colorspace.jpg)
+
 ![RGB histogram](rgb histogram.jpg)
+
 ![colorspace comparison](colorspace impact.jpg)
+
 3. Train linear SVM classifier using the processed feature extraction
+
 ![Linear SVM accuracy](SVM model accuarcy.jpg)
+
 4. Train CNN classifier using images
+
 ![CNN architecture](CNN model summary.jpg)
+
 ![CNN modle accuracy](CNN model accuarcy.jpg)
+
 5. Compare the accuracy of these 2 models.
+
 6. Create sliding windows with varied size to identify vehicle in the image. For the purpose of conservativeness, both CNN and SVM are used to predict vehicles. 
+
 7. Create heatmap to remove false positive and duplicate sliding windows.
+
 ![Heatmap](sliding windows.jpg)
 ---
+
+
 
 
 
