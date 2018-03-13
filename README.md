@@ -17,27 +17,27 @@ The goals / steps of this project are the following:
 ##### Pipeline: 
 1. Import all the train dataset
 
-![dataset](vehicle dataset.JPG)
+![dataset](output_images/vehicle_dataset.JPG)
 
 2. Process the images with HOG and colorspace feature extraction
 
-![hog visualization](hog visualize.jpg)
+![hog visualization](output_images/hog_visualize.JPG)
 
-![HoG colorchannel](hog colorspace.jpg)
+![HoG colorchannel](output_images/hog_colorspace.JPG)
 
-![RGB histogram](rgb histogram.jpg)
+![RGB histogram](output_images/rgb_histogram.JPG)
 
-![colorspace comparison](colorspace impact.jpg)
+![colorspace comparison](output_images/colorspace_impact.JPG)
 
 3. Train linear SVM classifier using the processed feature extraction
 
-![Linear SVM accuracy](SVM model accuarcy.jpg)
+![Linear SVM accuracy](output_images/SVM_model_accuarcy.JPG)
 
 4. Train CNN classifier using images
 
-![CNN architecture](CNN model summary.jpg)
+![CNN architecture](output_images/CNN_model_summary.JPG)
 
-![CNN modle accuracy](CNN model accuarcy.jpg)
+![CNN modle accuracy](output_images/CNN_model_accuarcy.JPG)
 
 5. Compare the accuracy of these 2 models.
 
@@ -45,7 +45,7 @@ The goals / steps of this project are the following:
 
 7. Create heatmap to remove false positive and duplicate sliding windows.
 
-![Heatmap](sliding windows.jpg)
+![Heatmap](output_images/sliding_windows.JPG)
 ---
 
 
